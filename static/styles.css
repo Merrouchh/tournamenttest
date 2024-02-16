@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    margin-top: 0;
+    color: #f7ca18; /* Yellow color */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+button {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333; /* Darker shade of black */
+}
+
+.users-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.users-container h2 {
+    margin-top: 0;
+    color: #000;
+}
+
+.admin-button {
+    background-color: #f7ca18; /* Yellow color */
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.admin-button:hover {
+    background-color: #f1c40f; /* Darker shade of yellow */
+}
+
+.admin-login {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.admin-login h2 {
+    margin-top: 0;
+    color: #f7ca18; /* Yellow color */
+}
+
+.admin-login input[type="text"],
+.admin-login input[type="password"],
+.admin-login button {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.admin-login button {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.admin-login button:hover {
+    background-color: #333; /* Darker shade of black */
+}
